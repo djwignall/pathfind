@@ -30,5 +30,33 @@ describe("Pathfind", () => {
     expect(pathfind(A, P, Q)).toBe(6)
   })
 
-  // You can add further tests here
+  it("additional test case", () => {
+    const A = [
+      [true, false, true, false, true],
+      [true, true, true, true,true],
+      [true, true, false, true, true],
+      [true, true, true, true, true],
+      [true, true, true, true, true],
+    ]
+    const P: Vector = { x: 2, y: 0 }
+    const Q: Vector = { x: 2, y: 4 }
+
+    expect(pathfind(A, P, Q)).toBe(6)
+  })
+
+  it("full diagonal", () => {
+    const A = [
+      [true, true, true, true, true],
+      [true, true, true, true,true],
+      [true, true, true, true, true],
+      [true, true, true, true, true],
+      [true, true, true, true, true],
+    ]
+    const P: Vector = { x: 0, y: 0 }
+    const Q: Vector = { x: 4, y: 4 }
+
+    expect(pathfind(A, P, Q)).toBe(8)
+  })
+
+ 
 })

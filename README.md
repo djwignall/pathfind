@@ -33,5 +33,7 @@ Tests have been implemented using Jest and can be run by running `yarn test`.
 Please fill in the sections below after you complete the challenge.
 
 ### What I'm Pleased With
+I'm pleased with my implemnentation and am happy to have had the opportunity to do this. I feel this has helped with my understanding of this particular pathfinding algorithm which I have found confusing in the past
 
 ### What I Would Have Done With More Time
+This is my first time using Jest and it did prove a little confusing to me. I eventually managed to get it running and managed to do all my testing however with more time i would like to do some additional reading and sure up my understanding of Jest.
